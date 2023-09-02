@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spinner</title>
+    <style>
+        .container{
+            width: 95%;
+            margin: 50px auto;
+            padding: 10px;
+            background-color: #e0e0e0;
+            text-align: center;
+        }
+        input,button{
+            padding: 7px;
+            font-size: 15px;
+        }
+        input{
+            width: 250px;
+        }
+        .item{
+            border: 2px solid orange;
+            padding: 5px;
+            margin: 5px;
+        }
+        #spinner{
+            display: none;
+            text-align: center;
+            padding: 15px;
+            color: red;
+            font-size: 55px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <input type="text" id="input-search" placeholder="search any item">
+            <button id="searchItemHandelar">Search items</button>
+        </div>
+        <div id="spinner">
+            <h3>Loading...</h3>    
+        </div>
+        <div id="Not">
+            
+        </div>
+        <div id="items">
+            
+        </div>
+        
+        
+        
+        
+    </div>
+    
+    <script src="spinner-notshow.js"></script>
+</body>
+</html>
